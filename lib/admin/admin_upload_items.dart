@@ -226,7 +226,7 @@ class _AdminUploadItemsScreenState extends State<AdminUploadItemsScreen>
         .millisecondsSinceEpoch
         .toString();
     requestImgurApi.fields['title'] = imageName;
-    requestImgurApi.headers['Authorization'] = "Client-ID " + "88918b71b66b898";
+    requestImgurApi.headers['Authorization'] = "Client-ID " + "d911899f8de60a7";
 
     var imageFile = await http.MultipartFile.fromPath(
       'image',

@@ -1,6 +1,6 @@
 
 class API {
-  static const hostConnect = "http://192.168.100.28/api_clothes_store";
+  static const hostConnect = "https://e-tradingproj.000webhostapp.com/api_clothes_store/";
   static const hostConnectUser = "$hostConnect/user";
   static const hostConnectAdmin = "$hostConnect/admin";
   static const hostUploadItems = "$hostConnect/items";

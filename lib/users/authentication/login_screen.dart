@@ -75,7 +75,6 @@ class _LoginScreenState extends State<LoginScreen>
       print("Error :: " + errorMsg.toString());
     }
   }
-
   @override
   Widget build(BuildContext context)
   {
@@ -91,15 +90,11 @@ class _LoginScreenState extends State<LoginScreen>
             child: SingleChildScrollView(
               child: Column(
                 children: [
-
                   //login screen header
                   SizedBox(
                     width: MediaQuery.of(context).size.width,
-
-
                     child: Image.asset(
                       "assets/images/buying.jpeg",
-
                     ),
                   ),
                   //login screen sign-in form
