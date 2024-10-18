@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "eccomerce-a0e85",
+          "appId": "1:114548616572:android:74018bca638046995f08f9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "eccomerce-a0e85",
+          "appId": "1:114548616572:ios:878bf0634176f5405f08f9",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "eccomerce-a0e85",
+          "appId": "1:114548616572:ios:878bf0634176f5405f08f9",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "eccomerce-a0e85",
+          "configurations": {
+            "android": "1:114548616572:android:74018bca638046995f08f9",
+            "ios": "1:114548616572:ios:878bf0634176f5405f08f9",
+            "macos": "1:114548616572:ios:878bf0634176f5405f08f9",
+            "web": "1:114548616572:web:49326c2abf82eb815f08f9",
+            "windows": "1:114548616572:web:0231a1e3d65c0b945f08f9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

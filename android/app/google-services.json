@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114548616572",
+    "project_id": "eccomerce-a0e85",
+    "storage_bucket": "eccomerce-a0e85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114548616572:android:74018bca638046995f08f9",
+        "android_client_info": {
+          "package_name": "com.example.etradinggradproj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKlO9m0amdz6fwKiijEfkJo6eEtME2EMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
